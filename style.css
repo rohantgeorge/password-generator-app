@@ -27,7 +27,7 @@
 * Global Styles
 */
 body {
-  font-family: "jetbrains_monoitalic";
+  font-family: "jetbrains_monoitalic", sans-serif;
   font-size: 18px;
   line-height: 23px;
   background-color: var(--body-bg);
