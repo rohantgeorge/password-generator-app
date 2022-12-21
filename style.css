@@ -42,6 +42,9 @@ body {
   font-weight: 700;
   font-size: 32px;
   line-height: 42.24px;
+  color: var(--grey);
+  text-align: center;
+  margin-bottom: 31px;
 }
 
 .heading-l {
@@ -89,12 +92,6 @@ h5 {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-}
-
-h4 {
-  color: var(--grey);
-  text-align: center;
-  margin-bottom: 31px;
 }
 
 label {
@@ -280,28 +277,28 @@ input[type="text"] {
   height: 28px;
 }
 
-.strength-range.too-weak span:nth-child(2) {
+.strength-range.too-weak span:nth-child(1) {
   background-color: var(--red);
   border: 2px solid var(--red);
 }
 
-.strength-range.weak span:nth-child(2),
-.strength-range.weak span:nth-child(3) {
+.strength-range.weak span:nth-child(1),
+.strength-range.weak span:nth-child(2) {
   background-color: var(--orange);
   border: 2px solid var(--orange);
 }
 
+.strength-range.medium span:nth-child(1),
 .strength-range.medium span:nth-child(2),
-.strength-range.medium span:nth-child(3),
-.strength-range.medium span:nth-child(4) {
+.strength-range.medium span:nth-child(3) {
   background-color: var(--yellow);
   border: 2px solid var(--yellow);
 }
 
+.strength-range.strong span:nth-child(1),
 .strength-range.strong span:nth-child(2),
 .strength-range.strong span:nth-child(3),
-.strength-range.strong span:nth-child(4),
-.strength-range.strong span:nth-child(5) {
+.strength-range.strong span:nth-child(4) {
   background-color: var(--green);
   border: 2px solid var(--green);
 }
