@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form action="/">
-      <h4 class="heading-m">Password Generator</h4>
+    <form role="form" action="/">
+      <h1 role="heading" class="heading-m">Password Generator</h1>
       <div class="form-group">
         <input type="text" id="password" placeholder="P4$5W0rD!" readonly />
         <svg
@@ -34,12 +34,16 @@
         <span class="copied">Copied</span>
       </div>
 
-      <div class="p-custom" style="background: #24232c; padding: 24px 32px; margin-top: 24px">
+      <div
+        class="p-custom"
+        style="background: #24232c; padding: 24px 32px; margin-top: 24px"
+      >
         <div class="form-group d-grid">
           <label for="range">Character Length</label>
           <span id="rangeValue">0</span>
           <input
             class="range"
+            id="range"
             type="range"
             name="range"
             value="0"
@@ -74,7 +78,6 @@
         <div class="strength">
           <h4>Strength</h4>
           <div class="strength-range">
-            <h5></h5>
             <span></span>
             <span></span>
             <span></span>
